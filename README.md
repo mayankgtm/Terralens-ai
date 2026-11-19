@@ -44,6 +44,6 @@ The current region detector uses HSV color-based heuristics rather than a traine
 
 Geographic area values are approximate estimates based on the requested bounding box and image dimensions. They should not be treated as verified geospatial measurements.
 
-## 🌍 Vision
+Vision
 
 Make Earth-observation imagery easier to explore, understand, and analyze through an accessible AI-powered interface.
