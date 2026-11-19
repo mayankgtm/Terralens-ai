@@ -1,16 +1,16 @@
-# 🛰️ TerraLens AI
+TerraLens AI
 
-### An AI-powered assistant for satellite imagery analysis
+AI-powered assistant for satellite imagery analysis
 
 TerraLens AI helps users explore satellite imagery, ask questions about observed scenes, and visualize candidate land-cover regions with estimated geographic area statistics.
 
-## 🎯 Problem Statement
+Problem Statement
 
 Satellite imagery contains valuable information about the Earth's surface, but interpreting it can require specialized tools and remote-sensing knowledge.
 
 TerraLens AI aims to make satellite image exploration more accessible through AI-assisted interpretation, visual analysis, and downloadable reports.
 
-## ✨ Features
+Features
 
 - **AI Image Analysis:** Ask questions about uploaded satellite images using Gemini.
 - **Satellite Imagery Retrieval:** Retrieve available Sentinel-2 imagery through Copernicus.
@@ -18,7 +18,7 @@ TerraLens AI aims to make satellite image exploration more accessible through AI
 - **Area Estimation:** Calculate approximate geographic areas when satellite metadata is available.
 - **PDF Reports:** Generate downloadable analysis reports.
 
-## 🛠️ Technology Stack
+Technology Stack
 
 - Python
 - Gradio
@@ -28,7 +28,7 @@ TerraLens AI aims to make satellite image exploration more accessible through AI
 - NumPy
 - Pillow
 
-## ⚙️ Setup
+Setup
 
 1. Clone this repository.
 2. Create and activate a Python virtual environment.
@@ -38,7 +38,7 @@ TerraLens AI aims to make satellite image exploration more accessible through AI
 
 Never commit API keys, client secrets, or `.env` files.
 
-## ⚠️ Limitations
+Limitations
 
 The current region detector uses HSV color-based heuristics rather than a trained land-cover segmentation model. Its classifications may confuse visually similar surfaces.
 
